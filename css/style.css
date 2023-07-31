@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#tercera{
+#prueba{
     border: 1px solid white;
 }
 
@@ -26,6 +26,8 @@ body, nav{
 #principal{
     background-color: #1e1d2b;
     font-family: 'Poppins', sans-serif;
+    height: 86%;
+    padding-bottom: 20px;
 }
 
 #info{
@@ -39,7 +41,7 @@ body, nav{
 #titulo{
     color: #ff702a;
     letter-spacing: 6px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 #imagen1{
@@ -66,8 +68,8 @@ body, nav{
 /*about*/
 #segundo{
     height: 100%;
-    border: 1px solid white;
-
+    background-color: #1e1d2b;
+    padding-bottom: 20px;
 }
 
 #Orange{
@@ -116,8 +118,10 @@ body, nav{
 }
 
 /* tercera */
-#tercera,#info3{
+#tercera{
     height: 100%;
+    background-color: #1e1d2b;
+    padding-top: 50px;
 }
 .icon {
     display: inline-block;
@@ -129,17 +133,42 @@ body, nav{
 }
 
 #comida{
-    width: 40%;
+    width: 52%;
+    margin-bottom: 20px;
 }
 
 #caja{
-    border: 3px solid rgb(255, 25, 25);
+    border: 3px solid rgb(0, 0, 0);
     background-color: #ffefe8;
+    color: black;
+}
+#caja > p{
+    font-size: 17px;
 }
 
 #cajitas{
-    border: 1px solid white;
+    margin-top: 60px;
 }
+#infoImg{
+    font-size: 30px;
+    text-align: center;
+}
+#Orange2{
+    color: #ff702a !important;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+hr{
+    background-color: #00b7ff;
+    height: 15px;
+    margin: 0;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+}
+
 
 @media (max-width: 993px){
     #navbarNav{
@@ -163,7 +192,11 @@ body, nav{
         display: flex;
         justify-content: center;
     }
-    #segundo,#tercero{
-        height: auto;
+    #principal,#segundo,#tercera{
+        height:auto;
+    }
+
+    #caja{
+        width: 70%;
     }
 }
