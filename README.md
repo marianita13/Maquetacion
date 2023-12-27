@@ -4,9 +4,9 @@
 
 ## Contenido
 / 
-|-- index.html           # Página principal del proyecto
-|-- style.css            # Estilos CSS
-|-- img/                 # Carpeta para imágenes
+- index.html           # Página principal del proyecto
+- style.css            # Estilos CSS
+- img/                 # Carpeta para imágenes
 
 ## Instrucciones de Uso
 
